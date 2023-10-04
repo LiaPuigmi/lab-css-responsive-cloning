@@ -113,7 +113,7 @@ hr {border: 0; border-top: 1px solid #999; border-bottom: 1px solid #333; height
   align-items: center;
   grid-column: 2/10;
   grid-row: 1;
-  margin: 20px;
+  margin: 15px;
 }
 
 .negrita{
@@ -145,39 +145,51 @@ hr {border: 0; border-top: 1px solid #999; border-bottom: 1px solid #333; height
   margin: 10px;
 }
 
+.redButton:hover{
+  cursor: pointer;
+  background-color: rgb(133, 8, 8);
+}
+
 .close{
   width: 15px;
   margin: 10px
 }
 
+.close:hover{
+  cursor: pointer;
+}
+
 .popular{
   background-color: var(--white);
   display: flex;
-  justify-content: center;
-  align-items: center;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items:inherit;
   grid-column: 2/8;
   grid-row: 2/4;
-  margin: 20px;
+  margin: 15px;
 }
 
 .today{
   background-color: var(--white);
   display: flex;
-  justify-content: center;
-  align-items: center;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items:inherit;
   grid-column: 2/8;
   grid-row: 4/7;
-  margin: 20px;
+  margin: 15px;
 }
 
 .kittybot{
   background-color: var(--white);
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
   grid-column: 8/10;
   grid-row: 2;
-  margin: 20px;
+  margin: 15px;
 }
 
 .upcoming{
@@ -187,7 +199,7 @@ hr {border: 0; border-top: 1px solid #999; border-bottom: 1px solid #333; height
   align-items: center;
   grid-column: 8/10;
   grid-row: 3/6;
-  margin: 20px;
+  margin: 15px;
 }
 
 .tweets{
@@ -197,5 +209,177 @@ hr {border: 0; border-top: 1px solid #999; border-bottom: 1px solid #333; height
   align-items: center;
   grid-column: 8/10;
   grid-row: 6;
-  margin: 20px;
+  margin: 15px;
+}
+
+.kittybotFirst{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.close2{
+  width: 15px;
+  height: 15px;
+  margin: 5px;
+}
+
+.close2:hover{
+  cursor: pointer;
+}
+
+.rb2{
+  font-size: 14px;
+}
+
+.tx2{
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+.popular1{
+  width: 90%;
+  margin-left: 5%;
+  margin-right: 5%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center; 
+  border-bottom: solid var(--text) 1px;
+}
+
+.title{
+  margin: 10px;
+  font-size: 20px;
+}
+
+.popular2{
+  display: flex;
+  justify-content: space-around;
+  align-self: stretch; 
+  margin-right: 20px;
+  margin-left: 20px;
+}
+.imagenApp{
+  width: 70px;
+  margin: 10px;
+}
+
+.title2{
+  margin: 8px;
+  font-size: 16px;
+}
+
+.texto2{
+  font-weight: 200;
+  color: var(--text);
+  margin: 8px; 
+  font-size: 12px;
+}
+
+.botoncitos{
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.border{
+  margin: 8px;
+  display: flex;
+  border: solid 1px var(--text);
+  border-radius: 4px;
+}
+
+.border:hover{
+  cursor: pointer;
+}
+
+.icon{
+  width: 20px;
+  margin: 2px;
+  text-align: center;
+}
+
+p{
+  display: flex;
+  margin: 2px;
+  font-size: 12px;
+  color: var(--text);
+  align-items: center;
+}
+
+.popular2Final{
+  display: flex;
+  justify-content: flex-end;
+  align-self: flex-end;
+}
+
+.botonGris{
+  background-color: var(--text);
+  color: var(--white);
+  padding: 4px;
+  border-radius: 4px;
+  margin: 4px;
+  font-size: 10px;
+  width: 100px;
+  text-align: center;
+}
+
+.popular2Image{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100px;
+}
+
+.popular2Final{
+  width: 150px;
+}
+
+.plus{
+  color: var(--text);
+  font-size: 10px;
+  margin: 4px;
+  padding: 4px;
+}
+
+.border2{
+  margin: 8px;
+  display: flex;
+}
+
+.popular2Middle{
+  width: 500px;
+}
+.popular3{
+  display: flex;
+  justify-content: space-between;
+  align-self: center; 
+  margin-top: 20px;
+}
+.arrowDown{
+  margin: 10px;
+}
+
+.title3{
+  margin: 8px;
+  font-size: 16px;
+  color: var(--text);
+}
+
+.arrowDown:hover{
+  cursor: pointer;
+}
+
+.botonGris:hover{
+  cursor: pointer;
+}
+
+.titles{
+  display: flex;
+}
+
+.title4{
+  margin: 8px;
+  font-size: 16px;
+  color: var(--text);
 }
