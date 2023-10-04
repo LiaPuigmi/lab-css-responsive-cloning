@@ -18,7 +18,7 @@ body{
 }
 
 header{
-  background-color: white;
+  background-color: var(--white);
   position: fixed;
   height: 15vh;
   width: 100%;
@@ -54,7 +54,7 @@ header{
   display: flex;
   justify-content: center;
   align-items: center;
-  border-bottom: var(--text) solid 1px;
+  
   
 }
 
@@ -76,6 +76,7 @@ header{
 
 nav{
   text-align: center;
+  padding-top: 10px;
 }
 
 a{
@@ -89,4 +90,62 @@ a{
 a:hover{
   background-color: var(--fondo);
   color: black;
+}
+
+.middle{
+  margin-left: 150px;
+  margin-right: 150px;
+}
+
+hr {border: 0; border-top: 1px solid #999; border-bottom: 1px solid #333; height:0;}
+
+.container{
+  padding-top: 15vh;
+  display: grid;
+  grid-template-columns: repeat(6, 1fr) 50px repeat(3, 1fr);
+  grid-template-rows: repeat(4, 1fr);
+}
+
+.welcome{
+  background-color: var(--white);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  grid-column: 2/10;
+  grid-row: 1;
+  margin: 50px;
+}
+
+.negrita{
+  font-weight: bold;
+  padding: 10px;
+}
+
+.texto{
+  font-weight: 300;
+  color: var(--text);
+  margin: 10px;
+}
+
+.input2{
+  box-sizing: border-box;
+  color: var(--text);
+  padding: 5px 5px 5px 5px;
+  width: 80%;
+  border: solid var(--text) 1px;
+  border-radius: 5px;
+  margin: 10px;
+}
+
+.redButton{
+  background-color: rgb(179, 3, 3);
+  color: var(--white);
+  padding: 8px;
+  border-radius: 5px;
+  margin: 10px;
+}
+
+.close{
+  width: 15px;
+  margin: 10px
 }
