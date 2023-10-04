@@ -54,6 +54,7 @@ header{
   display: flex;
   justify-content: center;
   align-items: center;
+  border-bottom: var(--text) solid 1px;
   
 }
 
