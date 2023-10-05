@@ -195,12 +195,14 @@ hr {border: 0; border-top: 1px solid #999; border-bottom: 1px solid #333; height
 .upcoming{
   background-color: var(--white);
   display: flex;
-  justify-content: center;
-  align-items: center;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: inherit;
   grid-column: 8/10;
   grid-row: 3/6;
   margin: 15px;
 }
+
 
 .tweets{
   background-color: var(--white);
@@ -382,4 +384,105 @@ p{
   margin: 8px;
   font-size: 16px;
   color: var(--text);
+}
+
+.upcomingImage{
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    width: 80px;
+  
+}
+
+.imagenChat{
+  width: 50px;
+  height: 50px;
+  margin: 10px;
+  border-radius: 50%;
+}
+
+.upcomingMiddle{
+    width: 400px;
+}
+
+.title5{
+  margin: 8px;
+  font-size: 14px;
+  color: black;
+}
+
+.border2{
+  margin: 8px;
+  display: flex;
+  border: solid 1px var(--text);
+  border-radius: 4px;
+  margin-top: 0px;
+}
+.border2:hover{
+  cursor: pointer;
+}
+
+.remind{
+  font-size: 10px;
+  color: black;
+}
+
+.title6{
+  margin: 8px;
+  font-size: 16px;
+  color: red;
+}
+
+.upcoming3{
+  display: flex;
+  justify-content: center;
+  align-self: center; 
+  margin-top: 20px;
+  border-top: var(--text) solid 1px;
+  width: 100%;
+}
+
+.upcoming3:hover{
+  cursor: pointer;
+}
+
+.upcoming1{
+  width: 90%;
+  margin-left: 5%;
+  margin-right: 5%;
+  margin-top: 5%;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end; 
+  border-bottom: solid var(--text) 1px;
+}
+
+.tweets1{
+  width: 90%;
+  margin-left: 5%;
+  margin-right: 5%;
+  margin-top: 5%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start; 
+  border-bottom: solid var(--text) 1px;
+}
+
+.tweets2{
+  display: flex;
+  align-items: flex-end;
+}
+
+.tweetUser{
+  font-size: 12px;
+  color: blue;
+  margin-left: 10px;
+}
+
+.texto3{
+  font-weight: 200;
+  color: var(--text);
+  margin: 10px; 
+  font-size: 12px;
 }
