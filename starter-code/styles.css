@@ -19,6 +19,24 @@ body{
 }
 
 @media(width >1200px){
+
+  .contentIcon{
+    grid-column: 10;
+    grid-row: 8;
+    display: none;
+  }
+  .iconChat{
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    position: absolute;
+    width: 100px;
+    z-index: 10;
+  }
+  .iconChat:hover{
+    cursor: pointer;
+  }
+
 header{
   background-color: var(--white);
   position: fixed;
@@ -535,3 +553,541 @@ hr {border: 0; border-top: 1px solid #999; border-bottom: 1px solid #333; height
 }
 
 }
+
+
+@media(1200px >= width >992px){
+  header{
+    background-color: var(--white);
+    position: fixed;
+    height: 15vh;
+    width: 100%;
+  }
+  
+  .input-wrapper {
+    position: relative;
+    width: 400px;
+    height: 25px;
+  }
+  
+  .input {
+    box-sizing: border-box;
+    color: var(--text);
+    padding: 5px 5px 5px 30px;
+    width: 100%;
+    border: solid var(--text) 1px;
+    border-radius: 5px;
+    
+  }
+  
+  .input-icon {
+    color: var(--text);
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    left: 5px;
+    top: 50%;
+    transform: translateY(-50%);
+  }
+  
+  .firsthead{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    
+  }
+  
+  .logo{
+    width: 40px;
+    margin: 10px;
+  }
+  
+  .button{
+    padding: 10px;
+    font-size: 16px;
+    color: var(--text);
+    font-weight: 400;
+  }
+  
+  .flechitas{
+    width: 12px;
+  }
+  
+  nav{
+    text-align: center;
+    padding-top: 10px;
+  }
+  
+  a{
+    padding: 5px;
+    text-decoration: none;
+    color: var(--text);
+    font-size: 16px;
+    font-weight: 500;
+  }
+  
+  a:hover{
+    background-color: var(--fondo);
+    color: black;
+  }
+  
+  .middle{
+    margin-left: 150px;
+    margin-right: 150px;
+  }
+  
+  hr {border: 0; border-top: 1px solid #999; border-bottom: 1px solid #333; height:0;}
+  
+  .container{
+    padding-top: 15vh;
+    display: grid;
+    width: 100%;
+    grid-template-columns: repeat(6, 1fr) 50px repeat(3, 1fr);
+    grid-template-rows: 100px 200px 200px 100px 100px 200px 200px 100px;
+  }
+  
+  .welcome{
+    background-color: var(--white);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    grid-column: 2/10;
+    grid-row: 1;
+    margin: 15px;
+  }
+  
+  .negrita{
+    font-weight: bold;
+    padding: 10px;
+  }
+  
+  .texto{
+    font-weight: 300;
+    color: var(--text);
+    margin: 10px;
+  }
+  
+  .input2{
+    box-sizing: border-box;
+    color: var(--text);
+    padding: 5px 5px 5px 5px;
+    width: 80%;
+    border: solid var(--text) 1px;
+    border-radius: 5px;
+    margin: 10px;
+  }
+  
+  .redButton{
+    background-color: rgb(179, 3, 3);
+    color: var(--white);
+    padding: 8px;
+    border-radius: 5px;
+    margin: 10px;
+  }
+  
+  .redButton:hover{
+    cursor: pointer;
+    background-color: rgb(133, 8, 8);
+  }
+  
+  .close{
+    width: 15px;
+    margin: 10px
+  }
+  
+  .close:hover{
+    cursor: pointer;
+  }
+  
+  .popular{
+    background-color: var(--white);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items:inherit;
+    grid-column: 2/10;
+    grid-row: 2/5;
+    margin: 15px;
+  }
+  
+  .today{
+    background-color: var(--white);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items:inherit;
+    grid-column: 2/10;
+    grid-row: 5/9;
+    margin: 15px;
+  }
+  
+  .kittybot{
+    background-color: var(--white);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    grid-column: 8/10;
+    grid-row: 2;
+    margin: 15px;
+    display : none;
+  }
+  
+  .upcoming{
+    background-color: var(--white);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: inherit;
+    grid-column: 8/10;
+    grid-row: 3/7;
+    margin: 15px;
+    display : none;
+  }
+  
+  
+  .tweets{
+    background-color: var(--white);
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    grid-column: 8/10;
+    grid-row: 7/9;
+    margin: 15px;
+    display : none;
+  }
+  
+  .kittybotFirst{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .close2{
+    width: 15px;
+    height: 15px;
+    margin: 5px;
+  }
+  
+  .close2:hover{
+    cursor: pointer;
+  }
+  
+  .rb2{
+    font-size: 14px;
+  }
+  
+  .tx2{
+    padding-left: 5px;
+    padding-right: 5px;
+  }
+  
+  .popular1{
+    width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+    border-bottom: solid var(--text) 1px;
+  }
+  
+  .title{
+    margin: 10px;
+    font-size: 20px;
+  }
+  
+  .popular2{
+    display: flex;
+    justify-content: space-around;
+    align-self: stretch; 
+    margin-right: 20px;
+    margin-left: 20px;
+  }
+  .imagenApp{
+    width: 70px;
+    margin: 10px;
+  }
+  
+  .title2{
+    margin: 8px;
+    font-size: 16px;
+  }
+  
+  .texto2{
+    font-weight: 200;
+    color: var(--text);
+    margin: 8px; 
+    font-size: 12px;
+  }
+  
+  .botoncitos{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+  }
+  
+  .border{
+    margin: 8px;
+    display: flex;
+    border: solid 1px var(--text);
+    border-radius: 4px;
+  }
+  
+  .border:hover{
+    cursor: pointer;
+  }
+  
+  .icon{
+    width: 20px;
+    margin: 2px;
+    text-align: center;
+  }
+  
+  .popular2Final{
+    display: flex;
+    justify-content: flex-end;
+    align-self: flex-end;
+    width: 150px;
+  }
+  
+  .botonGris{
+    background-color: var(--text);
+    color: var(--white);
+    padding: 4px;
+    border-radius: 4px;
+    margin: 4px;
+    font-size: 10px;
+    width: 100px;
+    text-align: center;
+  }
+  
+  .popular2Image{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100px;
+  }
+  
+  
+  .plus{
+    color: var(--text);
+    font-size: 10px;
+    margin: 4px;
+    padding: 4px;
+  }
+  
+  .border2{
+    margin: 8px;
+    display: flex;
+  }
+  
+  .popular2Middle{
+    width: 500px;
+  }
+  .popular3{
+    display: flex;
+    justify-content: space-between;
+    align-self: center; 
+    margin-top: 20px;
+  }
+  .arrowDown{
+    margin: 10px;
+  }
+  
+  .title3{
+    margin: 8px;
+    font-size: 16px;
+    color: var(--text);
+  }
+  
+  .arrowDown:hover{
+    cursor: pointer;
+  }
+  
+  .botonGris:hover{
+    cursor: pointer;
+  }
+  
+  .titles{
+    display: flex;
+  }
+  
+  .title4{
+    margin: 8px;
+    font-size: 16px;
+    color: var(--text);
+  }
+  
+  .upcomingImage{
+      display: flex;
+      align-items: flex-start;
+      justify-content: center;
+      width: 80px;
+    
+  }
+  
+  .imagenChat{
+    width: 50px;
+    height: 50px;
+    margin: 10px;
+    border-radius: 50%;
+  }
+  
+  .upcomingMiddle{
+      width: 400px;
+  }
+  
+  .title5{
+    margin: 8px;
+    font-size: 14px;
+    color: black;
+  }
+  
+  .border2{
+    margin: 8px;
+    display: flex;
+    border: solid 1px var(--text);
+    border-radius: 4px;
+    margin-top: 0px;
+  }
+  .border2:hover{
+    cursor: pointer;
+  }
+  
+  .remind{
+    font-size: 10px;
+    color: black;
+  }
+  
+  .title6{
+    margin: 8px;
+    font-size: 16px;
+    color: red;
+  }
+  
+  .upcoming3{
+    display: flex;
+    justify-content: center;
+    align-self: center; 
+    margin-top: 20px;
+    border-top: var(--text) solid 1px;
+    width: 100%;
+  }
+  
+  .upcoming3:hover{
+    cursor: pointer;
+  }
+  
+  .upcoming1{
+    width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 5%;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end; 
+    border-bottom: solid var(--text) 1px;
+  }
+  
+  .tweets1{
+    width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 5%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start; 
+    border-bottom: solid var(--text) 1px;
+  }
+  
+  .tweets2{
+    display: flex;
+    align-items: flex-end;
+  }
+  
+  .tweetUser{
+    font-size: 12px;
+    color: blue;
+    margin-left: 10px;
+  }
+  
+  .texto3{
+    font-weight: 200;
+    color: var(--text);
+    margin: 10px; 
+    font-size: 12px;
+  }
+  
+  .tweetFirst{
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    width: 100%;
+  }
+  
+  .tweetContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 80%;
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+  
+  .imagenLogo{
+    width: 15px;
+    height: 15px;
+    margin: 10px; 
+  }
+  
+  .tweetMiddle{
+    width: 100%; 
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+  }
+  
+  .imagenTweet{
+    width: 25px;
+    height: 25px;
+    margin: 10px;
+    border-radius: 10px;
+  }
+  
+  .tweetUser2{
+    font-size: 12px;
+    color: blue;
+  }
+  
+  .texto4{
+    font-weight: 200;
+    color: var(--text);
+    font-size: 12px;
+  }
+  
+  .twitterScroll{
+    overflow: scroll;
+    width: 100%;
+    height: 90%;
+  }
+
+  .contentIcon{
+    grid-column: 10;
+    grid-row: 8;
+  }
+  .iconChat{
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    position: absolute;
+    width: 100px;
+    z-index: 10;
+  }
+  .iconChat:hover{
+    cursor: pointer;
+  }
+  
+  }
