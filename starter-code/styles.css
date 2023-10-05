@@ -1075,14 +1075,14 @@ hr {border: 0; border-top: 1px solid #999; border-bottom: 1px solid #333; height
   }
 
   .contentIcon{
-    grid-column: 10;
-    grid-row: 8;
+    position: relative;
   }
   .iconChat{
-    display: flex;
-    justify-content: flex-end;
-    align-items: flex-end;
-    position: absolute;
+    position: fixed;
+    right: 0px;
+    bottom: 23px;
+    padding-top: 15px;
+    margin-bottom: 0;
     width: 100px;
     z-index: 10;
   }
