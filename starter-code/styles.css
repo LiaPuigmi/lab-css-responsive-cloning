@@ -13,10 +13,12 @@
 
 body{
     display: block;
+    width: 100%;
     margin: 0;
     background-color: var(--fondo);
 }
 
+@media(width >1200px){
 header{
   background-color: var(--white);
   position: fixed;
@@ -102,8 +104,9 @@ hr {border: 0; border-top: 1px solid #999; border-bottom: 1px solid #333; height
 .container{
   padding-top: 15vh;
   display: grid;
+  width: 100%;
   grid-template-columns: repeat(6, 1fr) 50px repeat(3, 1fr);
-  grid-template-rows: 1fr 2fr 2fr 2fr 1fr 3fr;
+  grid-template-rows: 100px 200px 200px 100px 100px 200px 200px 100px;
 }
 
 .welcome{
@@ -166,7 +169,7 @@ hr {border: 0; border-top: 1px solid #999; border-bottom: 1px solid #333; height
   justify-content: space-around;
   align-items:inherit;
   grid-column: 2/8;
-  grid-row: 2/4;
+  grid-row: 2/5;
   margin: 15px;
 }
 
@@ -177,7 +180,7 @@ hr {border: 0; border-top: 1px solid #999; border-bottom: 1px solid #333; height
   justify-content: space-around;
   align-items:inherit;
   grid-column: 2/8;
-  grid-row: 4/7;
+  grid-row: 5/9;
   margin: 15px;
 }
 
@@ -199,7 +202,7 @@ hr {border: 0; border-top: 1px solid #999; border-bottom: 1px solid #333; height
   justify-content: space-around;
   align-items: inherit;
   grid-column: 8/10;
-  grid-row: 3/6;
+  grid-row: 3/7;
   margin: 15px;
 }
 
@@ -207,10 +210,11 @@ hr {border: 0; border-top: 1px solid #999; border-bottom: 1px solid #333; height
 .tweets{
   background-color: var(--white);
   display: flex;
-  justify-content: center;
+  flex-direction: column;
+  justify-content: flex-start;
   align-items: center;
   grid-column: 8/10;
-  grid-row: 6;
+  grid-row: 7/9;
   margin: 15px;
 }
 
@@ -301,18 +305,11 @@ hr {border: 0; border-top: 1px solid #999; border-bottom: 1px solid #333; height
   text-align: center;
 }
 
-p{
-  display: flex;
-  margin: 2px;
-  font-size: 12px;
-  color: var(--text);
-  align-items: center;
-}
-
 .popular2Final{
   display: flex;
   justify-content: flex-end;
   align-self: flex-end;
+  width: 150px;
 }
 
 .botonGris{
@@ -333,9 +330,6 @@ p{
   width: 100px;
 }
 
-.popular2Final{
-  width: 150px;
-}
 
 .plus{
   color: var(--text);
@@ -485,4 +479,59 @@ p{
   color: var(--text);
   margin: 10px; 
   font-size: 12px;
+}
+
+.tweetFirst{
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  width: 100%;
+}
+
+.tweetContainer{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  width: 80%;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+.imagenLogo{
+  width: 15px;
+  height: 15px;
+  margin: 10px; 
+}
+
+.tweetMiddle{
+  width: 100%; 
+  display: flex;
+  justify-content: center;
+  margin: 10px;
+}
+
+.imagenTweet{
+  width: 25px;
+  height: 25px;
+  margin: 10px;
+  border-radius: 10px;
+}
+
+.tweetUser2{
+  font-size: 12px;
+  color: blue;
+}
+
+.texto4{
+  font-weight: 200;
+  color: var(--text);
+  font-size: 12px;
+}
+
+.twitterScroll{
+  overflow: scroll;
+  width: 100%;
+  height: 90%;
+}
+
 }
