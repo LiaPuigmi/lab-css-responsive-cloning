@@ -651,7 +651,7 @@ hr {border: 0; border-top: 1px solid #999; border-bottom: 1px solid #333; height
     display: flex;
     justify-content: center;
     align-items: center;
-    grid-column: 2/10;
+    grid-column: 1/11;
     grid-row: 1;
     margin: 15px;
   }
@@ -705,7 +705,7 @@ hr {border: 0; border-top: 1px solid #999; border-bottom: 1px solid #333; height
     flex-direction: column;
     justify-content: space-around;
     align-items:inherit;
-    grid-column: 2/10;
+    grid-column: 1/11;
     grid-row: 2/5;
     margin: 15px;
   }
@@ -716,7 +716,7 @@ hr {border: 0; border-top: 1px solid #999; border-bottom: 1px solid #333; height
     flex-direction: column;
     justify-content: space-around;
     align-items:inherit;
-    grid-column: 2/10;
+    grid-column: 1/11;
     grid-row: 5/9;
     margin: 15px;
   }
