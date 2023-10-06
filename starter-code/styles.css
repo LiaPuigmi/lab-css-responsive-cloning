@@ -320,6 +320,16 @@ hr {border: 0; border-top: 1px solid #999; border-bottom: 1px solid #333; height
   margin-left: 15px;
   border-bottom: solid 0.5px var(--text);
 }
+
+.upcoming2{
+  width: 90%;
+  display: flex;
+  justify-content: space-around;
+  align-self: stretch; 
+  margin-right: 15px;
+  margin-left: 15px;
+}
+
 .imagenApp{
   width: 70px;
   margin: 10px;
@@ -924,6 +934,15 @@ p{
     margin-right: 20px;
     margin-left: 20px;
     border-bottom: solid 0.5px var(--text);
+  }
+
+  .upcoming2{
+    width: 90%;
+    display: flex;
+    justify-content: space-around;
+    align-self: stretch; 
+    margin-right: 15px;
+    margin-left: 15px;
   }
   .imagenApp{
     width: 70px;
@@ -1545,6 +1564,14 @@ p{
       margin-left: 20px;
       border-bottom: solid 0.5px var(--text);
     }
+    .upcoming2{
+      width: 90%;
+      display: flex;
+      justify-content: space-around;
+      align-self: stretch; 
+      margin-right: 15px;
+      margin-left: 15px;
+    }
     .imagenApp{
       width: 70px;
       margin: 10px;
@@ -2165,6 +2192,14 @@ p{
         margin-right: 20px;
         margin-left: 20px;
         border-bottom: solid 0.5px var(--text);
+      }
+      .upcoming2{
+        width: 90%;
+        display: flex;
+        justify-content: space-around;
+        align-self: stretch; 
+        margin-right: 15px;
+        margin-left: 15px;
       }
       .imagenApp{
         width: 70px;
